@@ -1,0 +1,12 @@
+django-admin startproject shop_back
+cd shop_back
+python manage.py startapp api
+pip install djangorestframework
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+//links:
+http://127.0.0.1:8000/api/products/
+http://127.0.0.1:8000/api/categories/
+http://127.0.0.1:8000/api/categories/1/products/
